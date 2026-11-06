@@ -1,0 +1,21 @@
+Q1 Une matrice à deux dim, organisée avec les états en ligne et mes événements en colonnes. Cela permet de représenter les différents états de la machine.
+
+Q2 Une structure conditionnelle de type if / else ou switch / case permet de vérifier l'état actuel et de déterminer quelle action effectuer
+
+Q3 Les états sont représentés par des classes distinctes. Chaque classe définit le comportement associé à un état et les actions à effectuer selon les événements reçus
+
+Q4 Les tests conditionnels sont remplacés par des méthodes propres à chaque classe représentant un état. Cela évite de multiplier les conditions et rend le code plus organisé et plus facile à maintenir
+
+Q5 état : drawing, événement : MOUSEMOUV, transition : l'événement Enter permet de passer a cet état
+
+Q6 il y a deux transitions : Enter pour l'action saveLine et Escape pour abandon
+
+Q7 stroke: "red",
+ stroke: "blue",
+
+Q8 Xstate permet de représenter les états et transitions de manière visuelle. Cela facilité la compréhension et l'évolution du programme.
+
+Q9 
+Etats		MOUSECLICK	MOUSEMOUVE	Backspace	Enter	Escape
+idle		drawing		---		---		---	---
+drawing		drawing		drawing		drawing		idle	idle
